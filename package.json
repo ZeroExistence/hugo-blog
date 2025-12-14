@@ -1,0 +1,18 @@
+{
+  "name": "newsite",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify",
+    "lint": "echo 'TODO: add lint script'"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.10",
+    "preact": "^10.27.2",
+    "tailwindcss": "^4.1.12"
+  },
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.14.0",
+  "description": "Blog starter template for Hugo Blox with Tailwind CSS v4"
+}
