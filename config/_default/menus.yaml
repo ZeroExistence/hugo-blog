@@ -5,9 +5,15 @@ main:
   - name: Home
     url: /
     weight: 10
+  - name: Personal
+    url: tags/personal/
+    weight: 21
   - name: Tech
     url: tags/tech/
     weight: 22
+  - name: Finance
+    url: tags/finance/
+    weight: 23
   - name: Topics
     url: tags/
     weight: 30
